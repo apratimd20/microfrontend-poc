@@ -31,7 +31,7 @@ module.exports = {
             name: 'chatApp',
             filename: 'remoteEntry.js',
             remotes: {
-                host: 'host@http://localhost:3000/remoteEntry.js',
+                host: 'host@http://microfrontend-poc-nu.vercel.app/remoteEntry.js',
             },
             exposes: {
                 './Chat': './src/Chat.jsx',

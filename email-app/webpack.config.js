@@ -31,7 +31,7 @@ module.exports = {
             name: 'emailApp',
             filename: 'remoteEntry.js',
             remotes: {
-                host: 'host@http://localhost:3000/remoteEntry.js',
+                host: 'host@http://microfrontend-poc-lgqz.vercel.app/remoteEntry.js',
             },
             exposes: {
                 './Email': './src/Email.jsx',
