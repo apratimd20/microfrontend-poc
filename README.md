@@ -15,8 +15,8 @@ npm start
 ```
 
 - **Host App**: [http://localhost:3000](http://localhost:3000)
-- **Chat App**: [http://localhost:3001](http://localhost:3001)
-- **Email App**: [http://localhost:3002](http://localhost:3002)
+- **Chat App**: [https://microfrontend-poc-nu.vercel.app](https://microfrontend-poc-nu.vercel.app)
+- **Email App**: [https://microfrontend-poc-lgqz.vercel.app](https://microfrontend-poc-lgqz.vercel.app)
 
 ---
 
