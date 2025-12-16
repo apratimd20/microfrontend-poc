@@ -31,8 +31,8 @@ module.exports = {
       name: 'host',
       filename: 'remoteEntry.js',
       remotes: {
-        chatApp: 'chatApp@http://localhost:3001/remoteEntry.js',
-        emailApp: 'emailApp@http://localhost:3002/remoteEntry.js',
+        chatApp: 'chatApp@https://microfrontend-poc-nu.vercel.app/remoteEntry.js',
+        emailApp: 'emailApp@https://microfrontend-poc-lgqz.vercel.app/remoteEntry.js',
       },
       exposes: {
         './Button': './src/design-system/Button.jsx',
