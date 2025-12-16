@@ -1,0 +1,13 @@
+{
+  "name": "react-microfrontend-poc",
+  "version": "1.0.0",
+  "description": "Root package to manage micro-frontends",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm start --prefix host-app\" \"npm start --prefix chat-app\" \"npm start --prefix email-app\"",
+    "install:all": "npm install && npm install --prefix host-app && npm install --prefix chat-app && npm install --prefix email-app"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
