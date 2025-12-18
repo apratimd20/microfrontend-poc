@@ -101,6 +101,36 @@ react-microfrontend-poc/
     └── webpack.config.js # Federation Config
 ```
 
+---
+
+## 🚢 Deployment
+
+This project is ready for deployment to **Vercel** or any static hosting platform.
+
+### Quick Deploy to Vercel
+
+1. **Deploy Remote Apps First** (chat-app and email-app)
+2. **Deploy Host App** with environment variables pointing to remote URLs
+
+For detailed deployment instructions, see **[DEPLOYMENT.md](./DEPLOYMENT.md)**.
+
+### Key Changes for Production
+
+- ✅ **Environment Variables**: Webpack configs use environment variables for remote URLs
+- ✅ **CORS Headers**: `vercel.json` files configured for cross-origin Module Federation
+- ✅ **Auto Public Path**: Production builds use `auto` for proper asset loading
+- ✅ **Build Scripts**: All apps have `npm run build` for production builds
+
+### Environment Variables
+
+**Host App** requires:
+- `CHAT_APP_URL`: URL of deployed chat-app
+- `EMAIL_APP_URL`: URL of deployed email-app
+
+See `.env.example` files in each app directory for details.
+
+---
+
 ## ✅ Deliverables Checklist
 - [x] Host Application (Wrapper, Design System).
 - [x] Chat & Email Micro-Frontends.
